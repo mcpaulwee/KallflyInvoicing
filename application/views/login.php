@@ -14,7 +14,7 @@
             <div class="form-login">
                 <form action="<?php echo base_url('LoginController/loginAttempt')?>" method="post">
                 <h4>Welcome to Kallfly</h4>
-                <input type="text" class="form-control input-sm chat-input" placeholder="username" name="username"/>
+                <input type="text" class="form-control input-sm chat-input" placeholder="username" name="username" value="otin"/>
                 <?php if(form_error('username')): ?>
                     <span style="color: #B22222"><?= form_error('username')?></span>
                 <?php endif; ?>
